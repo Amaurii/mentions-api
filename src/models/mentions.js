@@ -7,6 +7,7 @@ const schema = new Schema({
     required: true,
     trim: true
   },
+  
   mention: {
     type: String,
     required: true

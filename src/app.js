@@ -14,7 +14,8 @@ mongoose.connect(process.env.DATABASE_CONNECTION_STRING, {
     useUnifiedTopology: true,
     useFindAndModify: true,
     useNewUrlParser: true,
-    useCreateIndex: true 
+    useCreateIndex: true,
+    useFindAndModify: false
 });
 
 const db = mongoose.connection;
