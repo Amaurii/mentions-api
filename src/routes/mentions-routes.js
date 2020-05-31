@@ -18,5 +18,4 @@ mentionsController.updateMention);
 
 router.delete('/:id', mentionsController.deleteMention);
 
-
 module.exports = router;
